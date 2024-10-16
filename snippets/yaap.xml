@@ -44,7 +44,7 @@
 
   <!-- Device -->
   <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="yaap" />
-  <project path="device/qcom/common" name="device_qcom_common" remote="yaap" />
+  <!--project path="device/qcom/common" name="device_qcom_common" remote="yaap" /-->
   <project path="device/qcom/sepolicy_vndr/sm8650" name="device_qcom_sepolicy_vndr_sm8650" remote="yaap" />
 
   <!-- External -->
@@ -214,7 +214,7 @@
   <!--project path="vendor/qcom/opensource/core-utils" name="vendor_qcom_opensource_core-utils" remote="yaap" /-->
   <project path="vendor/google/gms" name="yaosp/vendor_google_gms" remote="gitlab" revision="fifteen" clone-depth="1" />
   <project path="vendor/google/pixel" name="yaosp/vendor_google_pixel" remote="gitlab" revision="fifteen" clone-depth="1" />
-  <project path="vendor/qcom/common" name="yaosp/vendor_qcom_common" remote="gitlab" revision="fifteen" />
+  <!--project path="vendor/qcom/common" name="yaosp/vendor_qcom_common" remote="gitlab" revision="fifteen" /-->
   <project path="vendor/microg" name="vendor_microg" remote="yaap" />
   <project path="vendor/themes" name="vendor_themes" remote="yaap" />
   <project path="vendor/yaap" name="vendor_yaap" remote="yaap" />
